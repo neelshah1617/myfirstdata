@@ -6,6 +6,7 @@ pipeline {
         // sh 'npm install'
         // sh 'npm build'
         echo 'building the application ...'
+        echo 'Application built successfully.'
       }
     }
     stage("test") {
